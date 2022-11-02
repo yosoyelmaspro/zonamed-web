@@ -4,18 +4,17 @@
   "description": "sitio web de zonamed",
   "main": "index.html",
   "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
+    "start": "serve src",
+    "build": "cp -rf src/ public/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yosoyelmaspro/zonamed-web.git"
   },
- 
   "author": "Gael Gonzaléz",
   "license": "MIT",
-  "private":true,
-  "homepage":"https://github.com/yosoyelmaspro/zonamed-web#readme",
+  "private": true,
+  "homepage": "https://github.com/yosoyelmaspro/zonamed-web#readme",
   "devDependencies": {
     "serve": "^11.2.0"
   }
