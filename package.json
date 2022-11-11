@@ -4,8 +4,8 @@
   "description": "sitio web de zonamed",
   "main": "index.html",
   "scripts": {
-    "start": "serve src",
-    "build": "cp -rf src/ public/"
+    "start": "harp src/pages",
+    "build": "harp src/pages build/"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "private": true,
   "homepage": "https://github.com/yosoyelmaspro/zonamed-web#readme",
-  "devDependencies": {
-    "serve": "^11.2.0"
+  "dependencies": {
+    "harp": "^0.46.0"
   }
 }
