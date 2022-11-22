@@ -4,8 +4,8 @@
   "description": "sitio web de zonamed",
   "main": "index.html",
   "scripts": {
-    "start": "serve src",
-    "build": "cp -rf src/ public/"
+    "start": "harp src/",
+    "build": "rimraf public/ && harp src/ public/"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,10 @@
   "license": "MIT",
   "private": true,
   "homepage": "https://github.com/yosoyelmaspro/zonamed-web#readme",
+  "dependencies": {
+    "harp": "^0.46.0"
+  },
   "devDependencies": {
-    "serve": "^11.2.0"
+    "rimraf": "^3.0.2"
   }
 }
