@@ -4,8 +4,8 @@
   "description": "sitio web de zonamed",
   "main": "index.html",
   "scripts": {
-    "start": "harp src/pages",
-    "build": "harp src/pages build/"
+    "start": "harp src/",
+    "build": "harp src/ build/"
   },
   "repository": {
     "type": "git",
