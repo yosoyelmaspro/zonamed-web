@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "harp src/",
-    "build": "harp src/ build/"
+    "build": "rimraf public/ && harp src/ public/"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "homepage": "https://github.com/yosoyelmaspro/zonamed-web#readme",
   "dependencies": {
     "harp": "^0.46.0"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
   }
 }
